@@ -1,11 +1,14 @@
 import React from 'react'
-import Header from '../../components/header'
 import Card from '../../components/Sections'
+import HeroSection from '../HeroSection'
+
+
 const Home= () => {
   return (
   <> 
-   <Header name={"Imagens"} name1={"Sobre"} name2={"Contatos"}/>
+  <HeroSection/>
    <Card/>
+   
    </>
   )
 }

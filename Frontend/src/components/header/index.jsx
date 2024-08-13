@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = ({ name, name1, name2 }) => {
   return (
-    <header className="bg-pink-500 shadow rounded-bl-xl rounded-br-xl">
-    <nav className="bg-gray-900 shadow-lg">
+    <header className="bg-custom-g shadow rounded-bl-xl rounded-br-xl">
+    <nav className="bg-custom-g shadow-lg">
     <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
            
@@ -34,7 +34,7 @@ const Header = ({ name, name1, name2 }) => {
                 </ul>
           
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+          <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-white rounded-lg hover:bg-custom-teal">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
              </div>
@@ -48,7 +48,7 @@ const Header = ({ name, name1, name2 }) => {
           <li className="text-base font-medium text-gray-900">{name1}</li>
           <li className="text-base font-medium text-gray-900">{name2}</li>
           <li>
-            <a href="#" className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-white rounded-lg hover:bg-custom-g">
               Log in
             </a>
           </li>

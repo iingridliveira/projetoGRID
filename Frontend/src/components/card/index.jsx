@@ -9,7 +9,8 @@ const SingleCard = ({
   btnHref,
 }) => {
   return (
-    <div className="card-container mb-10 overflow-hidden rounded-lg bg-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl dark:bg-dark-2 dark:shadow-md dark:hover:shadow-xl">
+    <div className="card-container mb-10 overflow-hidden rounded-lg bg-custom-g s
+    hadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl dark:bg-dark-2 dark:shadow-md dark:hover:shadow-xl">
       <img src={image} alt="" className="w-full h-48 sm:h-56 md:h-64 lg:h-72 xl:h-80 object-cover transition-transform duration-300 hover:scale-105" />
       <div className="card-content p-6 sm:p-7 md:p-8 lg:p-9 text-center">
         <h3>
