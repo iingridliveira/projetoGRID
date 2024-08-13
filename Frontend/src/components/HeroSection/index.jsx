@@ -1,5 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 
 const HeroSection = () => {
@@ -7,17 +7,17 @@ const HeroSection = () => {
     <div
       className="bg-no-repeat bg-cover bg-center relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12"
       style={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1606938704652-3e588c2c9fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80)`,
+        backgroundImage: `url(https://i.postimg.cc/V6DjhV4y/Design-sem-nome-1.png)`,
       }}
     >
       <div className="absolute bg-gradient-to-r from-gray-900 to-gray-900 opacity-75 inset-0 z-0"></div>
       <div className="min-h-screen flex justify-center">
         <div className="grid grid-cols-2 gap-4 items-center z-10">
           <div className="max-w-lg text-center sm:text-left">
-            <h2 className="text-4xl font-bold text-gray-100 tracking-tight">
-              A smile <br className="hidden sm:block lg:hidden" /> is an inexpensive way to change your looks
-            </h2>
-            <p className="mt-4 text-gray-300">Goals are just dreams with deadline</p>
+            <h1 className="text-9xl font-bold text-gray-100 tracking-tight">
+              GRID <br className="hidden sm:blois an inexpensive way to change your looksck lg:hidden" /> 
+            </h1>
+            <p className="mt-4 text-gray-300">Palavras hoje, lembranças para o futuro.</p>
             <div className="flex flex-row items-center space-x-3 mt-5">
               <a
                 href="https://www.behance.net/ajeeshmon"
@@ -43,7 +43,7 @@ const HeroSection = () => {
                 href="https://twitter.com/ajeemon?lang=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 items-center justify-center inline-flex rounded-2xl font-bold text-lg text-white bg-blue-400 hover:drop-shadow-lg cursor-pointer transition ease-in duration-300"
+                className="w-10 h-10 items-center justify-center inline-flex rounded-2xl font-bold text-lg text-custom-gd bg-blue-400 hover:drop-shadow-lg cursor-pointer transition ease-in duration-300"
               >
                 <img
                   className="w-3"
@@ -53,23 +53,18 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-          <div className="mx-0 max-w-xl flex rounded-2xl bg-custom-g">
-            <Swiper
-              spaceBetween={50}
-              slidesPerView={1}
-              pagination={{ clickable: true }}
-              loop={true}
-            >
-              <SwiperSlide>
+          <div className="mx-0 max-w-xl rounded-2xl  bg-custom-g ">
+               
+             
                       <blockquote class="text-left">
             <div class="">
                <div class="relative">
               <img
-                src="https://scontent.fccj2-2.fna.fbcdn.net/v/t31.18172-8/11262421_868445743194927_5746052500134236265_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=84hLHR-HqyMAX9c9k1y&_nc_ht=scontent.fccj2-2.fna&oh=00_AT_lIRJ3LcWYTagkUdWdrG_eb-iwHbQS_pPNAv7JDcg2Eg&oe=634DB7A3"
+                src="https://i.postimg.cc/W1STdRNq/tl-1.webp"
                 alt="aji"
                 class="object-cover w-full mx-auto rounded-t-2xl h-60"
               />
-              <div class="rounded-t-2xl absolute bg-gradient-to-t from-gray-800 opacity-75 inset-0 z-0"></div>
+              <div class="rounded-t-2xl absolute bg-gradient-to-t from-custom-gd  opacity-75 inset-0 z-0"></div>
              </div>
             </div>
 
@@ -78,16 +73,15 @@ const HeroSection = () => {
              
               <svg class="absolute right-0 w-6 fill-indigo-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>
             <div class="text-sm mt-5 mx-5">
-                <p class="font-medium text-white">Ajimon</p>
-                <p class="mt-1 text-gray-300">CEO Of Marketing </p>
+                <p class="font-medium text-custom-gd">John Schaar</p>
+                <p class="mt-1 text-custom-gd">O futuro não é um lugar para onde estamos indo, mas um lugar que estamos criando. Os caminhos para ele não são encontrados, mas feitos." </p>
+                
               </div>
             </div>
             
               
           </blockquote>
-              </SwiperSlide>
-              {/* Adicione mais SwiperSlides conforme necessário */}
-            </Swiper>
+              
           </div>
         </div>
       </div>

@@ -7,6 +7,8 @@ export default {
         "custom-teal": "#71dbd2", // Adiciona a cor personalizada
         "custom-y": "#fff18c",
         "custom-g": "#ade4b5",
+        "custom-w": "#eeffdb",
+        "custom-gd": "#005f00 ",
       },
     },
   },

@@ -7,14 +7,14 @@ const Header = ({ name, name1, name2 }) => {
     <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
            
-            <h1 className="text-white text-lg">
+            <h1 className="text-custom-gd text-lg">
                 <a href="index.html">
                     <span className="fa fa-book mr-2"></span> Tutee
                 </a>
             </h1>
 
             
-            <button className="text-white inline-flex items-center justify-center p-2 rounded-md focus:outline-none lg:hidden">
+            <button className="text-custom-gd inline-flex items-center justify-center p-2 rounded-md focus:outline-none lg:hidden">
                 <span className="fa fa-bars"></span>
             </button>
 
@@ -23,18 +23,18 @@ const Header = ({ name, name1, name2 }) => {
             <div className="hidden lg:flex lg:items-center lg:w-auto" id="navbarTogglerDemo02">
                 <ul className="flex flex-wrap list-none mr-auto">
                     <li className="nav-item">
-                        <a className="px-3 py-2 text-white hover:text-gray-300" href="index.html">{name}</a>
+                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="index.html">{name}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="px-3 py-2 text-white hover:text-gray-300" href="about.html">{name1}</a>
+                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="about.html">{name1}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="px-3 py-2 text-white hover:text-gray-300" href="services.html">{name2}</a>
+                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="services.html">{name2}</a>
                     </li>
                 </ul>
           
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-white rounded-lg hover:bg-custom-teal">
+          <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-custom-gd rounded-lg hover:bg-custom-teal">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
              </div>
@@ -48,7 +48,7 @@ const Header = ({ name, name1, name2 }) => {
           <li className="text-base font-medium text-gray-900">{name1}</li>
           <li className="text-base font-medium text-gray-900">{name2}</li>
           <li>
-            <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-white rounded-lg hover:bg-custom-g">
+            <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-custom-gd rounded-lg hover:bg-custom-g">
               Log in
             </a>
           </li>
