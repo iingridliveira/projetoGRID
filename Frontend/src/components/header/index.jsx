@@ -2,7 +2,8 @@ import React from "react";
 
 const Header = ({ name, name1, name2 }) => {
   return (
-    <header className="bg-custom-g shadow rounded-bl-xl rounded-br-xl">
+        <header className="bg-custom-g shadow rounded-bl-xl rounded-br-xl fixed top-0 left-0 w-full z-50">
+
     <nav className="bg-custom-g shadow-lg">
     <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
@@ -23,13 +24,13 @@ const Header = ({ name, name1, name2 }) => {
             <div className="hidden lg:flex lg:items-center lg:w-auto" id="navbarTogglerDemo02">
                 <ul className="flex flex-wrap list-none mr-auto">
                     <li className="nav-item">
-                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="index.html">{name}</a>
+                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="#Card">{name}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="about.html">{name1}</a>
+                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="#Hero">{name1}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="services.html">{name2}</a>
+                        <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="#Latter">{name2}</a>
                     </li>
                 </ul>
           

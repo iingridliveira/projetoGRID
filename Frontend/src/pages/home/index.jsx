@@ -9,9 +9,10 @@ const Home= () => {
   return (
   <> 
    <Header name={"Imagens"} name1={"Sobre"} name2={"Contatos"}/>
-   
    <Example />
+ <section id='Latter'>
    <Later/>
+  </section>  
    <Footer/>
    </>
   )

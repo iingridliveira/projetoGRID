@@ -6,9 +6,10 @@ import HeroSection from '../HeroSection'
 const Home= () => {
   return (
   <> 
+  <section id='Hero'>
   <HeroSection/>
+  </section>
    <Card/>
-   
    </>
   )
 }
