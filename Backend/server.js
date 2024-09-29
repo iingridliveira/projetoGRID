@@ -4,13 +4,14 @@ import {Routes} from "./src/routes/index.routes.js";
 
 import cors from "cors"
 const app = express();
+app.use(cors({origin: "*"}))
 const port = 4949;
 app.use(express.json());
 app.use(Routes);
 app.get("/", (req, res) => {
   res.send("Hello World!");
 })
-app.use(cors({origin: "*"}))
+
 
 
 app.listen(port, () => {

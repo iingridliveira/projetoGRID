@@ -1,6 +1,6 @@
 import React from "react";
-
-const Header = ({ name, name1, name2 }) => {
+import { Link } from "react-router-dom";
+const Header = ({ name, name1, name2, name3 }) => {
   return (
         <header className="bg-custom-g shadow rounded-bl-xl rounded-br-xl fixed top-0 left-0 w-full z-50">
 
@@ -19,7 +19,7 @@ const Header = ({ name, name1, name2 }) => {
                 <span className="fa fa-bars"></span>
             </button>
 
-
+            
             
             <div className="hidden lg:flex lg:items-center lg:w-auto" id="navbarTogglerDemo02">
                 <ul className="flex flex-wrap list-none mr-auto">
@@ -32,12 +32,13 @@ const Header = ({ name, name1, name2 }) => {
                     <li className="nav-item">
                         <a className="px-3 py-2 text-custom-gd hover:text-gray-300" href="#Latter">{name2}</a>
                     </li>
+                    
                 </ul>
           
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-custom-gd rounded-lg hover:bg-custom-teal">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          
+             <Link className="ml-2 px-4 py-2 bg-custom-y text-custom-gd rounded-lg hover:bg-custom-teal" to={`/login`}>{name3}<span aria-hidden="true">&rarr;</span></Link>
+         
              </div>
         </div>
         </div>
@@ -48,10 +49,8 @@ const Header = ({ name, name1, name2 }) => {
           <li className="text-base font-medium text-gray-900">{name}</li>
           <li className="text-base font-medium text-gray-900">{name1}</li>
           <li className="text-base font-medium text-gray-900">{name2}</li>
-          <li>
-            <a href="#" className="ml-2 px-4 py-2 bg-custom-y text-custom-gd rounded-lg hover:bg-custom-g">
-              Log in
-            </a>
+          <li className="ml-2 px-4 py-2 bg-custom-y text-custom-gd rounded-lg hover:bg-custom-g">
+             <Link to={`/login`}>{name3}</Link>
           </li>
         </ul>
       </div>
